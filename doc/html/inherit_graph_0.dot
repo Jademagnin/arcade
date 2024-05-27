@@ -1,0 +1,20 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="arc::Actor",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1Actor.html",tooltip=" "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="arc::Line",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1Line.html",tooltip=" "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="arc::Rectangle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1Rectangle.html",tooltip=" "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="arc::Sprite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1Sprite.html",tooltip=" "];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="arc::Text",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1Text.html",tooltip=" "];
+  Node71 [label="arc::TextStyle",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1TextStyle.html",tooltip=" "];
+  Node71 -> Node72 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node72 [label="arc::Pixel",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1Pixel.html",tooltip=" "];
+  Node71 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+}

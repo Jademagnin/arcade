@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node63 [label="std::runtime_error",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node63 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="arc::ArcadeError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1ArcadeError.html",tooltip="Custom exception class for Arcade errors."];
+  Node63 -> Node65 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node65 [label="arc::DLLoader\< T \>\l::DLLoaderError",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1DLLoader_1_1DLLoaderError.html",tooltip=" "];
+  Node63 -> Node66 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node66 [label="arc::ErrorLibManager",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1ErrorLibManager.html",tooltip="A class to handle library management errors."];
+  Node63 -> Node67 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node67 [label="arc::errorTexture",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1errorTexture.html",tooltip=" "];
+}

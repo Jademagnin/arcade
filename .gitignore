@@ -1,0 +1,8 @@
+.vscode
+.idea
+test
+*.a
+*.o
+arcade
+*.so
+*.out

@@ -1,0 +1,19 @@
+digraph "arc::IGameModule"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  Node1 [label="arc::IGameModule",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black",tooltip="Interface for game modules."];
+  Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="arc::AGameModule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1AGameModule.html",tooltip="Abstract base class for game modules."];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="arc::Pacman",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1Pacman.html",tooltip=" "];
+  Node2 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="arc::Snake",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1Snake.html",tooltip="Class for the Snake game module."];
+  Node2 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="arc::TestGame",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1TestGame.html",tooltip=" "];
+  Node1 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="arc::AMenuModule",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1AMenuModule.html",tooltip="Abstract base class for menu modules."];
+  Node6 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="arc::Menu",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classarc_1_1Menu.html",tooltip=" "];
+}

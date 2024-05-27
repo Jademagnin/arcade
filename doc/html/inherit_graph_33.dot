@@ -1,0 +1,16 @@
+digraph "Graphical Class Hierarchy"
+{
+ // LATEX_PDF_SIZE
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node16 [label="std::false_type",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled",tooltip=" "];
+  Node16 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="argparse::details::\lHasContainerTraits\<\l T, typename \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structargparse_1_1details_1_1HasContainerTraits.html",tooltip=" "];
+  Node16 -> Node18 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node18 [label="argparse::details::\lHasContainerTraits\<\l std::string \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structargparse_1_1details_1_1HasContainerTraits_3_01std_1_1string_01_4.html",tooltip=" "];
+  Node16 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node19 [label="argparse::details::\lHasContainerTraits\<\l std::string_view \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structargparse_1_1details_1_1HasContainerTraits_3_01std_1_1string__view_01_4.html",tooltip=" "];
+  Node16 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node20 [label="argparse::details::\lHasStreamableTraits\l\< T, typename \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structargparse_1_1details_1_1HasStreamableTraits.html",tooltip=" "];
+}
